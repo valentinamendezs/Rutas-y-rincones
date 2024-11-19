@@ -1,4 +1,5 @@
 /* Estilos generales para todas las páginas */
+
 body {
     margin: 0;
     padding: 0;
@@ -92,6 +93,7 @@ html, body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Hace que el body ocupe toda la pantalla */
+    box-sizing: border-box;
 }
 
 
@@ -148,6 +150,7 @@ footer {
     width: 100%;
     position: relative;
     bottom: 0;
+    box-sizing: border-box;
 }
 
 .explicacion {
